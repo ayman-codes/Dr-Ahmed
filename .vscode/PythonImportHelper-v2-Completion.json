@@ -1,0 +1,241 @@
+[
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "current_dir",
+        "kind": 5,
+        "importPath": "pages.4_📱Contact",
+        "description": "pages.4_📱Contact",
+        "peekOfCode": "current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()\ncss_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\nwith open(css_file) as f:\n    st.markdown(\"<style>{}</style>\".format(f.read()), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>",
+        "detail": "pages.4_📱Contact",
+        "documentation": {}
+    },
+    {
+        "label": "css_file",
+        "kind": 5,
+        "importPath": "pages.4_📱Contact",
+        "description": "pages.4_📱Contact",
+        "peekOfCode": "css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\nwith open(css_file) as f:\n    st.markdown(\"<style>{}</style>\".format(f.read()), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>",
+        "detail": "pages.4_📱Contact",
+        "documentation": {}
+    },
+    {
+        "label": "contact_form",
+        "kind": 5,
+        "importPath": "pages.4_📱Contact",
+        "description": "pages.4_📱Contact",
+        "peekOfCode": "contact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>\n    <button type=\"submit\">Send</button>  \n</form>\n'''\nleft_column, right_column = st.columns(2)",
+        "detail": "pages.4_📱Contact",
+        "documentation": {}
+    },
+    {
+        "label": "current_dir",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()\ncss_file = current_dir / 'styles'/'main.css'\npfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "css_file",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "css_file = current_dir / 'styles'/'main.css'\npfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "pfp",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "pfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "resume_file",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "resume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "PAGE_TITLE",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "PAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "PAGE_ICON",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "PAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",\n}",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "NAME",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "NAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",\n}\nCERTIFICATES = {",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTION",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "DESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",\n}\nCERTIFICATES = {\n    \"🏆 Bachelor degree - General Medicine from university of Algeria\": \"https://drive.google.com/file/d/1jthRRq2Q35I-ZB2i_z6D0iW0Ro98YKtd/view?usp=sharing\",",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "EMAIL = \"ahmadabido2010@hotmail.com\"\nSOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",\n}\nCERTIFICATES = {\n    \"🏆 Bachelor degree - General Medicine from university of Algeria\": \"https://drive.google.com/file/d/1jthRRq2Q35I-ZB2i_z6D0iW0Ro98YKtd/view?usp=sharing\",\n    \"🏆 Specialist in Family medicine - Syria helth ministry\": \"https://drive.google.com/file/d/1cK3umw56itI3EBs7XWr1CoipwdR-qWzV/view?usp=sharing\",\n    \"🏆 Basic cardiac life support - Saudi Heart Assosiation\": \"https://drive.google.com/file/d/1oVPqq8NHWDG3VjC5WEuGXdIceNZrnLFy/view?usp=sharing\",\n    \"🏆 Awards - Saudi Minisry of health\": \"https://drive.google.com/file/d/1ttnwfALyv5sp_-_ZVCFcoVGEvY30lHru/view?usp=sharing\",",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIAL_MEDIA",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "SOCIAL_MEDIA = {\n    \"LinkedIn \": \"https://www.linkedin.com/in/ahmadayman-abido-91a647211\",\n    \"Instagram\": \"https://instagram.com/ahmadaymanabido?igshid=OGQ2MjdiOTE=\",\n}\nCERTIFICATES = {\n    \"🏆 Bachelor degree - General Medicine from university of Algeria\": \"https://drive.google.com/file/d/1jthRRq2Q35I-ZB2i_z6D0iW0Ro98YKtd/view?usp=sharing\",\n    \"🏆 Specialist in Family medicine - Syria helth ministry\": \"https://drive.google.com/file/d/1cK3umw56itI3EBs7XWr1CoipwdR-qWzV/view?usp=sharing\",\n    \"🏆 Basic cardiac life support - Saudi Heart Assosiation\": \"https://drive.google.com/file/d/1oVPqq8NHWDG3VjC5WEuGXdIceNZrnLFy/view?usp=sharing\",\n    \"🏆 Awards - Saudi Minisry of health\": \"https://drive.google.com/file/d/1ttnwfALyv5sp_-_ZVCFcoVGEvY30lHru/view?usp=sharing\",\n}",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "CERTIFICATES",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "CERTIFICATES = {\n    \"🏆 Bachelor degree - General Medicine from university of Algeria\": \"https://drive.google.com/file/d/1jthRRq2Q35I-ZB2i_z6D0iW0Ro98YKtd/view?usp=sharing\",\n    \"🏆 Specialist in Family medicine - Syria helth ministry\": \"https://drive.google.com/file/d/1cK3umw56itI3EBs7XWr1CoipwdR-qWzV/view?usp=sharing\",\n    \"🏆 Basic cardiac life support - Saudi Heart Assosiation\": \"https://drive.google.com/file/d/1oVPqq8NHWDG3VjC5WEuGXdIceNZrnLFy/view?usp=sharing\",\n    \"🏆 Awards - Saudi Minisry of health\": \"https://drive.google.com/file/d/1ttnwfALyv5sp_-_ZVCFcoVGEvY30lHru/view?usp=sharing\",\n}\nst.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)\nst.sidebar.success(\"Navigation menu\")\n# --- LOAD CSS, PDF & PROFIL PIC ---\nwith open(css_file) as f:",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "response = requests.get(pfp)\npfp2 = Image.open(BytesIO(response.content))\nresponse2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "pfp2",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "pfp2 = Image.open(BytesIO(response.content))\nresponse2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "response2",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "response2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "#pfp2",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.download_button(",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFbyte",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "PDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.download_button(\n        label=\" 📄 Download Resume\",",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "cols",
+        "kind": 5,
+        "importPath": "1_👨‍⚕️_Homepage",
+        "description": "1_👨‍⚕️_Homepage",
+        "peekOfCode": "cols = st.columns(len(SOCIAL_MEDIA))\nfor index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):\n    cols[index].write(f\"[{platform}]({link})\")\n# About me\nst.write('#')\nst.subheader('About me')\nst.write(\n    '''\n    I'm a highly experienced and dedicated family doctor from Egypt. I have a bachelor's degree in \n    Medicine from Algeria and a specialist degree in Family Medicine from Syria.",
+        "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    }
+]
