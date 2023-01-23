@@ -7,8 +7,8 @@ from PIL import Image
 # Path settings
 current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir / 'styles'/'main.css'
-pfp = "https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/assets/Images/pfp2.png?token=GHSAT0AAAAAAB5ORJB4HP2RTDCEW2N2FMS4Y6PADBQ"
-resume_file = current_dir / "assets" /'CV'/ "cv3b.pdf"
+pfp = "https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing"
+resume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Dr. Ahmed Ayman Obidou"
@@ -42,21 +42,22 @@ response = requests.get(pfp)
 pfp2 = Image.open(BytesIO(response.content))
 
     
-with open(img, "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
-profile_pic = Image.open(pfp)
+response2 = requests.get(resume_file)
+#pfp2 = Image.open(BytesIO(response.content))
+PDFbyte = response2.read()
+
 
 # hero section
 col1, col2 = st.columns(2, gap='small')
 with col1:
-    st.image(img, width=280)
+    st.image(pfp2, width=280)
 
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
         label=" 📄 Download Resume",
-        #data=PDFbyte,
+        data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
