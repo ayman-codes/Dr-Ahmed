@@ -5,9 +5,8 @@ import streamlit as st
 from PIL import Image
 
 # Path settings
-current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
-css_file = current_dir / 'styles'/'main.css'
-pfp = "https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing"
+css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'
+pfp = "https://i.ibb.co/w4tjYVV/pfp2.png"
 resume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'
 
 # --- GENERAL SETTINGS ---
@@ -41,12 +40,6 @@ with open(css_file) as f:
 response = requests.get(pfp)
 pfp2 = Image.open(BytesIO(response.content))
 
-    
-response2 = requests.get(resume_file)
-#pfp2 = Image.open(BytesIO(response.content))
-PDFbyte = response2.read()
-
-
 # hero section
 col1, col2 = st.columns(2, gap='small')
 with col1:
@@ -55,12 +48,7 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.download_button(
-        label=" 📄 Download Resume",
-        data=PDFbyte,
-        file_name=resume_file.name,
-        mime="application/octet-stream",
-    )
+    st.write("[📄 Download Resume](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf)")
     st.write("📫", EMAIL)
     
 # --- SOCIAL LINKS ---

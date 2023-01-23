@@ -1,5 +1,55 @@
 [
     {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "pathlib",
         "kind": 6,
         "isExtraImport": true,
@@ -25,37 +75,57 @@
         "documentation": {}
     },
     {
-        "label": "streamlit",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "streamlit",
-        "description": "streamlit",
-        "detail": "streamlit",
+        "label": "pfp",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "pfp = \"https://i.ibb.co/w4tjYVV/pfp2.png\"\naward = 'https://i.ibb.co/HxsR6wp/doctor-of-the-year.jpg'\nresponse_pfp = requests.get(pfp)\npfp2 = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number ",
+        "detail": "pages.3_📷Gallery",
         "documentation": {}
     },
     {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
+        "label": "award",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "award = 'https://i.ibb.co/HxsR6wp/doctor-of-the-year.jpg'\nresponse_pfp = requests.get(pfp)\npfp2 = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students ",
+        "detail": "pages.3_📷Gallery",
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
+        "label": "response_pfp",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "response_pfp = requests.get(pfp)\npfp2 = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students \n         earn the ability to deal with modern problems in machine learning.''')",
+        "detail": "pages.3_📷Gallery",
         "documentation": {}
     },
     {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
+        "label": "pfp2",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "pfp2 = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students \n         earn the ability to deal with modern problems in machine learning.''')\nst.write('---')",
+        "detail": "pages.3_📷Gallery",
+        "documentation": {}
+    },
+    {
+        "label": "response_award",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "response_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students \n         earn the ability to deal with modern problems in machine learning.''')\nst.write('---')\nst.image(pfp)",
+        "detail": "pages.3_📷Gallery",
+        "documentation": {}
+    },
+    {
+        "label": "award_image",
+        "kind": 5,
+        "importPath": "pages.3_📷Gallery",
+        "description": "pages.3_📷Gallery",
+        "peekOfCode": "award_image = Image.open(BytesIO(response_award.content))\nst.image(award_image)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students \n         earn the ability to deal with modern problems in machine learning.''')\nst.write('---')\nst.image(pfp)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim ",
+        "detail": "pages.3_📷Gallery",
         "documentation": {}
     },
     {
@@ -86,20 +156,11 @@
         "documentation": {}
     },
     {
-        "label": "current_dir",
-        "kind": 5,
-        "importPath": "1_👨‍⚕️_Homepage",
-        "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()\ncss_file = current_dir / 'styles'/'main.css'\npfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.",
-        "detail": "1_👨‍⚕️_Homepage",
-        "documentation": {}
-    },
-    {
         "label": "css_file",
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
         "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "css_file = current_dir / 'styles'/'main.css'\npfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"",
+        "peekOfCode": "css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\npfp = \"https://i.ibb.co/w4tjYVV/pfp2.png\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
     },
@@ -108,7 +169,7 @@
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
         "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "pfp = \"https://drive.google.com/file/d/13RchdS1B-dt5HYHdGgUb5eep4HG7fXUO/view?usp=sharing\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"",
+        "peekOfCode": "pfp = \"https://i.ibb.co/w4tjYVV/pfp2.png\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.\n\"\"\"\nEMAIL = \"ahmadabido2010@hotmail.com\"",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
     },
@@ -189,7 +250,7 @@
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
         "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "response = requests.get(pfp)\npfp2 = Image.open(BytesIO(response.content))\nresponse2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:",
+        "peekOfCode": "response = requests.get(pfp)\npfp2 = Image.open(BytesIO(response.content))\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.write(\"[📄 Download Resume](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf)\")",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
     },
@@ -198,34 +259,7 @@
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
         "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "pfp2 = Image.open(BytesIO(response.content))\nresponse2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)",
-        "detail": "1_👨‍⚕️_Homepage",
-        "documentation": {}
-    },
-    {
-        "label": "response2",
-        "kind": 5,
-        "importPath": "1_👨‍⚕️_Homepage",
-        "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "response2 = requests.get(resume_file)\n#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)",
-        "detail": "1_👨‍⚕️_Homepage",
-        "documentation": {}
-    },
-    {
-        "label": "#pfp2",
-        "kind": 5,
-        "importPath": "1_👨‍⚕️_Homepage",
-        "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "#pfp2 = Image.open(BytesIO(response.content))\nPDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.download_button(",
-        "detail": "1_👨‍⚕️_Homepage",
-        "documentation": {}
-    },
-    {
-        "label": "PDFbyte",
-        "kind": 5,
-        "importPath": "1_👨‍⚕️_Homepage",
-        "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "PDFbyte = response2.read()\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.download_button(\n        label=\" 📄 Download Resume\",",
+        "peekOfCode": "pfp2 = Image.open(BytesIO(response.content))\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)\n    st.write(DESCRIPTION)\n    st.write(\"[📄 Download Resume](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf)\")\n    st.write(\"📫\", EMAIL)",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
     },

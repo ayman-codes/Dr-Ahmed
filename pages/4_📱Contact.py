@@ -2,7 +2,7 @@ import pathlib
 import streamlit as st
 from pathlib import Path
 
-st.header('Get in touch with me!')
+st.header('Get in touch with me! ☎️ ')
 st.write('##')
 
 # LOAD CSS
