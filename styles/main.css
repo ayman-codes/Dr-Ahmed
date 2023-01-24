@@ -20,7 +20,7 @@ hr {
 }
 
 #MainMenu {
-    visibility: collapse;
+    visibility: visible;
 }
 
 footer {
@@ -28,7 +28,7 @@ footer {
 }
 
 header {
-    visibility: collapse;
+    visibility: visible;
 }
 
 input[type=message],
