@@ -5,7 +5,6 @@ import streamlit as st
 from PIL import Image
 
 # Path settings
-css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'
 pfp = "https://i.ibb.co/w4tjYVV/pfp2.png"
 resume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'
 css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'

@@ -265,15 +265,6 @@
         "documentation": {}
     },
     {
-        "label": "css_file",
-        "kind": 5,
-        "importPath": "1_👨‍⚕️_Homepage",
-        "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\npfp = \"https://i.ibb.co/w4tjYVV/pfp2.png\"\nresume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'\ncss = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- GENERAL SETTINGS ---\nPAGE_TITLE = \"Digital CV | Dr. Ahmed Ayman Obidou\"\nPAGE_ICON = \"👋\"\nNAME = \"Dr. Ahmed Ayman Obidou\"\nDESCRIPTION = \"\"\"\nFamily doctor specialist, 17 years experience in family medicine and Medical director.",
-        "detail": "1_👨‍⚕️_Homepage",
-        "documentation": {}
-    },
-    {
         "label": "pfp",
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
