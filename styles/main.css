@@ -28,7 +28,7 @@ footer {
 }
 
 header {
-    visibility: hidden;
+    visibility: collapse;
 }
 
 input[type=message],
