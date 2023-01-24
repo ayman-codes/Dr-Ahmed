@@ -1,6 +1,7 @@
 import pathlib
 import requests
 import streamlit as st
+import json
 
 st.header('Get in touch with me! ☎️ ')
 st.write('##')
@@ -9,8 +10,7 @@ st.write('##')
 css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'
 # --- LOAD CSS from github ---
 response_css = requests.get(css)
-st.markdown("<style>{}</style>".format(response_css), unsafe_allow_html=True)
-
+st.markdown(f"""<style>{str(response_css.text)}</style>""", unsafe_allow_html=True)
 
 # contact
 contact_form = '''

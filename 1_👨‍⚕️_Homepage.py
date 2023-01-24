@@ -29,13 +29,12 @@ CERTIFICATES = {
     "🏆 Awards - Saudi Minisry of health": "https://drive.google.com/file/d/1ttnwfALyv5sp_-_ZVCFcoVGEvY30lHru/view?usp=sharing",
 }
 
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 st.sidebar.success("Navigation menu")
 
 # --- LOAD CSS from github ---
 response_css = requests.get(css)
-st.markdown("<style>{}</style>".format(response_css), unsafe_allow_html=True)
+st.markdown(f"""<style>{str(response_css.text)}</style>""", unsafe_allow_html=True)
 
 
 response = requests.get(pfp)

@@ -67,6 +67,15 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "cardiac_life_support",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
@@ -233,7 +242,7 @@
         "kind": 5,
         "importPath": "pages.4_📱Contact",
         "description": "pages.4_📱Contact",
-        "peekOfCode": "css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- LOAD CSS from github ---\nresponse_css = requests.get(css)\nst.markdown(\"<style>{}</style>\".format(response_css), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>",
+        "peekOfCode": "css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- LOAD CSS from github ---\nresponse_css = requests.get(css)\nst.markdown(f\"\"\"<style>{str(response_css.text)}</style>\"\"\", unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>",
         "detail": "pages.4_📱Contact",
         "documentation": {}
     },
@@ -242,7 +251,7 @@
         "kind": 5,
         "importPath": "pages.4_📱Contact",
         "description": "pages.4_📱Contact",
-        "peekOfCode": "response_css = requests.get(css)\nst.markdown(\"<style>{}</style>\".format(response_css), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>\n    <button type=\"submit\">Send</button>  ",
+        "peekOfCode": "response_css = requests.get(css)\nst.markdown(f\"\"\"<style>{str(response_css.text)}</style>\"\"\", unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>\n    <button type=\"submit\">Send</button>  ",
         "detail": "pages.4_📱Contact",
         "documentation": {}
     },
@@ -359,7 +368,7 @@
         "kind": 5,
         "importPath": "1_👨‍⚕️_Homepage",
         "description": "1_👨‍⚕️_Homepage",
-        "peekOfCode": "response_css = requests.get(css)\nst.markdown(\"<style>{}</style>\".format(response_css), unsafe_allow_html=True)\nresponse = requests.get(pfp)\npfp2 = Image.open(BytesIO(response.content))\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)",
+        "peekOfCode": "response_css = requests.get(css)\nst.markdown(f\"\"\"<style>{str(response_css.text)}</style>\"\"\", unsafe_allow_html=True)\nresponse = requests.get(pfp)\npfp2 = Image.open(BytesIO(response.content))\n# hero section\ncol1, col2 = st.columns(2, gap='small')\nwith col1:\n    st.image(pfp2, width=280)\nwith col2:\n    st.title(NAME)",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
     },
@@ -388,6 +397,24 @@
         "description": "1_👨‍⚕️_Homepage",
         "peekOfCode": "cols = st.columns(len(SOCIAL_MEDIA))\nfor index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):\n    cols[index].write(f\"[{platform}]({link})\")\n# About me\nst.write('#')\nst.subheader('About me')\nst.write(\n    '''\n    I'm a highly experienced and dedicated family doctor from Egypt. I have a bachelor's degree in \n    Medicine from Algeria and a specialist degree in Family Medicine from Syria.",
         "detail": "1_👨‍⚕️_Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "css",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- LOAD CSS from github ---\nresponse_css = requests.get(css)\nprint(response_css.text)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "response_css",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "response_css = requests.get(css)\nprint(response_css.text)",
+        "detail": "test",
         "documentation": {}
     }
 ]
