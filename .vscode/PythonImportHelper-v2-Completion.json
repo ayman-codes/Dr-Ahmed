@@ -79,7 +79,7 @@
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "cardiac_life_support = \"https://i.ibb.co/9cVJCSQ/cardiac-life-support.png\"\nshield_of_honour = \"https://i.ibb.co/dm0cYsv/shield-of-honour.png\"\nyears_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'\nmaster_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))",
+        "peekOfCode": "cardiac_life_support = \"https://i.ibb.co/GJJJth7/cardiac-life-support.png\"\nshield_of_honour = \"https://i.ibb.co/dm0cYsv/shield-of-honour.png\"\nyears_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'\nmaster_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },

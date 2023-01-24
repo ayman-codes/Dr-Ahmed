@@ -6,7 +6,7 @@ from PIL import Image
 st.header('Certificates')
 st.write('\n\n')
 st.write('#')
-cardiac_life_support = "https://i.ibb.co/9cVJCSQ/cardiac-life-support.png"
+cardiac_life_support = "https://i.ibb.co/GJJJth7/cardiac-life-support.png"
 shield_of_honour = "https://i.ibb.co/dm0cYsv/shield-of-honour.png"
 years_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'
 master_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'
@@ -46,7 +46,7 @@ st.write('''My master's degree from Syria. Date of issue: 22/11/2000.
 st.write('---')
 
 st.image(cardiac_img)
-st.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')
+st.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/cardiac%20life%20support.pdf)''')
 
 st.write('---')
 
