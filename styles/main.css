@@ -20,7 +20,7 @@ hr {
 }
 
 #MainMenu {
-    visibility: hidden;
+    visibility: collapse;
 }
 
 footer {
