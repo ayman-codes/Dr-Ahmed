@@ -1,15 +1,16 @@
 import pathlib
+import requests
 import streamlit as st
-from pathlib import Path
 
 st.header('Get in touch with me! ☎️ ')
 st.write('##')
 
 # LOAD CSS
-current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
-css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'
-with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'
+# --- LOAD CSS from github ---
+response_css = requests.get(css)
+st.markdown("<style>{}</style>".format(response_css), unsafe_allow_html=True)
+
 
 # contact
 contact_form = '''

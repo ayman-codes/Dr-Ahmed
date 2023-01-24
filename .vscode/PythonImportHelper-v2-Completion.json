@@ -67,14 +67,6 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "cardiac_life_support",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
@@ -237,20 +229,20 @@
         "documentation": {}
     },
     {
-        "label": "current_dir",
+        "label": "css",
         "kind": 5,
         "importPath": "pages.4_📱Contact",
         "description": "pages.4_📱Contact",
-        "peekOfCode": "current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()\ncss_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\nwith open(css_file) as f:\n    st.markdown(\"<style>{}</style>\".format(f.read()), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>",
+        "peekOfCode": "css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- LOAD CSS from github ---\nresponse_css = requests.get(css)\nst.markdown(\"<style>{}</style>\".format(response_css), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>",
         "detail": "pages.4_📱Contact",
         "documentation": {}
     },
     {
-        "label": "css_file",
+        "label": "response_css",
         "kind": 5,
         "importPath": "pages.4_📱Contact",
         "description": "pages.4_📱Contact",
-        "peekOfCode": "css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'\nwith open(css_file) as f:\n    st.markdown(\"<style>{}</style>\".format(f.read()), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>",
+        "peekOfCode": "response_css = requests.get(css)\nst.markdown(\"<style>{}</style>\".format(response_css), unsafe_allow_html=True)\n# contact\ncontact_form = '''\n<form action=\"https://formsubmit.co/ahmadabido2010@hotmail.com\" method=\"POST\">\n    <input type=\"hidden\" name=\"_captcha\" value=\"false\">\n    <input type=\"text\" name=\"name\" placeholder=\"Insert your name\" required>\n    <input type=\"email\" name=\"email\" placeholder=\"Insert your email\" required>\n    <textarea name=\"message\" placeholder=\"Insert your message\" required></textarea>\n    <button type=\"submit\">Send</button>  ",
         "detail": "pages.4_📱Contact",
         "documentation": {}
     },
