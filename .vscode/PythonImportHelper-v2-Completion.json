@@ -79,52 +79,160 @@
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "cardiac_life_support = \"https://i.ibb.co/9cVJCSQ/cardiac-life-support.png\"\naward = 'https://i.ibb.co/HxsR6wp/doctor-of-the-year.jpg'\nresponse_pfp = requests.get(cardiac_life_support)\nresponse_pfp_img = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)",
+        "peekOfCode": "cardiac_life_support = \"https://i.ibb.co/9cVJCSQ/cardiac-life-support.png\"\nshield_of_honour = \"https://i.ibb.co/dm0cYsv/shield-of-honour.png\"\nyears_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'\nmaster_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
     {
-        "label": "award",
+        "label": "shield_of_honour",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "award = 'https://i.ibb.co/HxsR6wp/doctor-of-the-year.jpg'\nresponse_pfp = requests.get(cardiac_life_support)\nresponse_pfp_img = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim ",
+        "peekOfCode": "shield_of_honour = \"https://i.ibb.co/dm0cYsv/shield-of-honour.png\"\nyears_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'\nmaster_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
     {
-        "label": "response_pfp",
+        "label": "years_award",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "response_pfp = requests.get(cardiac_life_support)\nresponse_pfp_img = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research",
+        "peekOfCode": "years_award = 'https://i.ibb.co/VMC8tpL/15years-award.png'\nmaster_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
     {
-        "label": "response_pfp_img",
+        "label": "master_degree",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "response_pfp_img = Image.open(BytesIO(response_pfp.content))\nresponse_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number ",
+        "peekOfCode": "master_degree = 'https://i.ibb.co/xJ5X9hW/master-degree.png'\nnaaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
     {
-        "label": "response_award",
+        "label": "naaim_award",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "response_award = requests.get(award)\naward_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students ",
+        "peekOfCode": "naaim_award = 'https://i.ibb.co/3m9HLvw/na3im-culture-certificate.jpg'\nbahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
     {
-        "label": "award_image",
+        "label": "bahchelor_degree",
         "kind": 5,
         "importPath": "pages.2_👩🏻‍🎓Certificates",
         "description": "pages.2_👩🏻‍🎓Certificates",
-        "peekOfCode": "award_image = Image.open(BytesIO(response_award.content))\nst.image(response_pfp_img)\nst.write('''Cardiac life support provider certficate. Date of issue: 02/03/2020. [📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/AHMAD%20AYMAN%20M.%20TAHER%20OBIDOU(1).pdf)''')\nst.write('---')\nst.image(response_pfp_img)\nst.write('''This website is designed for Deep Learning course given by Dr.Mürsel Taşgin where I aim \n         to showcase all the related projects in the website Deep learning received a lot of success in many research\n         areas from image processing to voice recognition. Nowadays, the knowledge in deep learning has become the number \n         one skill to deal with artificial intelligence related tasks. Our aim with this course is to make our students \n         earn the ability to deal with modern problems in machine learning.''')",
+        "peekOfCode": "bahchelor_degree = 'https://i.ibb.co/HpJxTLL/Bahchelor-degree.png'\nresponse_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_cardiac",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_cardiac = requests.get(cardiac_life_support)\ncardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "cardiac_img",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "cardiac_img = Image.open(BytesIO(response_cardiac.content))\nresponse_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_shield",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_shield = requests.get(shield_of_honour)\nshield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "shield_image",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "shield_image = Image.open(BytesIO(response_shield.content))\nresponse_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_15year",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_15year = requests.get(years_award)\nyears_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. ",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "years_award_image",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "years_award_image = Image.open(BytesIO(response_15year.content))\nresponse_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_master",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_master = requests.get(master_degree)\nmaster_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "master_degreee_img",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "master_degreee_img = Image.open(BytesIO(response_master.content))\nresponse_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')\nst.image(master_degreee_img)",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_naaim",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_naaim = requests.get(naaim_award)\nnaaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')\nst.image(master_degreee_img)\nst.write('''My master's degree from Syria. Date of issue: 22/11/2000. ",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "naaim_img",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "naaim_img = Image.open(BytesIO(response_naaim.content))\nresponse_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')\nst.image(master_degreee_img)\nst.write('''My master's degree from Syria. Date of issue: 22/11/2000. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/master%20certificate.pdf)''')",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "response_bahchelor_degree",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "response_bahchelor_degree = requests.get(bahchelor_degree)\nbahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')\nst.image(master_degreee_img)\nst.write('''My master's degree from Syria. Date of issue: 22/11/2000. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/master%20certificate.pdf)''')\nst.write('---')",
+        "detail": "pages.2_👩🏻‍🎓Certificates",
+        "documentation": {}
+    },
+    {
+        "label": "bahchelor_img",
+        "kind": 5,
+        "importPath": "pages.2_👩🏻‍🎓Certificates",
+        "description": "pages.2_👩🏻‍🎓Certificates",
+        "peekOfCode": "bahchelor_img = Image.open(BytesIO(response_bahchelor_degree.content))\nst.image(bahchelor_img)\nst.write('''Bahchelor degree in general medicine from the university of Algeria. Date of issue: 12/01/1991. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/%D8%B4%D9%87%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%AE%D9%84%D9%81.pdf)''')\nst.write('---')\nst.image(master_degreee_img)\nst.write('''My master's degree from Syria. Date of issue: 22/11/2000. \n         \\n[📄 Download PDF](https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/Diplomas/master%20certificate.pdf)''')\nst.write('---')\nst.image(cardiac_img)",
         "detail": "pages.2_👩🏻‍🎓Certificates",
         "documentation": {}
     },
