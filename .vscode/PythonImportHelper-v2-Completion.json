@@ -398,23 +398,5 @@
         "peekOfCode": "cols = st.columns(len(SOCIAL_MEDIA))\nfor index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):\n    cols[index].write(f\"[{platform}]({link})\")\n# About me\nst.write('#')\nst.subheader('About me')\nst.write(\n    '''\n    I'm a highly experienced and dedicated family doctor from Egypt. I have a bachelor's degree in \n    Medicine from Algeria and a specialist degree in Family Medicine from Syria.",
         "detail": "1_👨‍⚕️_Homepage",
         "documentation": {}
-    },
-    {
-        "label": "css",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'\n# --- LOAD CSS from github ---\nresponse_css = requests.get(css)\nprint(response_css.text)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "response_css",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "response_css = requests.get(css)\nprint(response_css.text)",
-        "detail": "test",
-        "documentation": {}
     }
 ]
