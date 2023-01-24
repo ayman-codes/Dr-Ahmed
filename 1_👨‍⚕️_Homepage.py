@@ -8,6 +8,7 @@ from PIL import Image
 css_file = 'C:/Users/ayman/OneDrive/Coding-New/Coding/WORKSPACE/PYTHON/Dr-Ahmed/Dr-Ahmed/styles/main.css'
 pfp = "https://i.ibb.co/w4tjYVV/pfp2.png"
 resume_file = 'https://github.com/ayman-codes/Dr-Ahmed/raw/main/assets/CV/cv3b.pdf'
+css = 'https://raw.githubusercontent.com/ayman-codes/Dr-Ahmed/main/styles/main.css?token=GHSAT0AAAAAAB5ORJB4BMPALOMCLU22Y3Q2Y6P2AYA'
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Dr. Ahmed Ayman Obidou"
@@ -32,9 +33,9 @@ CERTIFICATES = {
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 st.sidebar.success("Navigation menu")
 
-# --- LOAD CSS, PDF & PROFIL PIC ---
-with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+# --- LOAD CSS from github ---
+response_css = requests.get(css)
+st.markdown("<style>{}</style>".format(response_css), unsafe_allow_html=True)
 
 
 response = requests.get(pfp)
